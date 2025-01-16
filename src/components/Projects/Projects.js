@@ -6,6 +6,7 @@ import NotesTaking from "../../Assets/Projects/Notes.png";
 import Pet from "../../Assets/Projects/Pet.png";
 import chatify from "../../Assets/Projects/Chat-App.png";
 import Recipe from "../../Assets/Projects/Food.png";
+import Random from "../../Assets/Projects/Password.png"
 
 function Projects() {
   return (
@@ -52,7 +53,6 @@ function Projects() {
               demoLink="https://pet-listing-three.vercel.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={NotesTaking}
@@ -62,6 +62,17 @@ function Projects() {
                     system, resulting in a 40% reduction in data processing time and increased user efficiency."
               ghLink="https://github.com/Subham-700/NotesTakingApp.git"
               demoLink="https://notes-taking-app-theta-ashen.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Random}
+              isBlog={false}
+              title="Random Password Generator"
+              description="Developed React JS password generator with customizable security options.
+                    Features include customizable options for uppercase, lowercase, symbols, and numbers."
+              ghLink="https://github.com/Subham-700/randompasswordgenerator.git"
+              demoLink="https://randompasswordgenerator-rho.vercel.app/"
             />
           </Col>
         </Row>
